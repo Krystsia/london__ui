@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+	<meta name='description' content='#' />
+	<meta name='Keywords' content='#' />
+	<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+
+	<title>London</title>
+	<link rel="shortcut icon" href="img/favicon.ico" />
+	
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+	<link rel='stylesheet' type='text/css' href='css/reset.css' />
+	<link rel='stylesheet' type='text/css' href='css/pickmeup.css' />
+	<link rel='stylesheet' type='text/css' href='css/style.css' />
+	<link rel='stylesheet' type='text/css' href='css/jquery.formstyler.css' />
+
+	<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+	<script src="js/jquery.formstyler.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/jquery.pickmeup.js"></script>
+	<script src="js/initialization.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id='main'>
+		<header>
+			<div class='content'>
+				<div class='wrapper'>
+					<div class="logo">
+						<a href='#'><img src='img/london_logo.png' alt='' /></a>
+					</div>
+					<div class="menu">
+						<ul class='wrapper'>
+							<li><a href='#'>ROLES</a></li>
+							<li><a href='#'>CLIENTS</a></li>
+							<li><a href='#'>UNCONFIRMED CLIENTS<span>12</span></a></li>
+							<li><a href='#'>BLOCKED USERS</a></li>
+							<li><a href='#'>SETTINGS</a></li>
+							<li><a href='#'>TASKS</a></li>
+						</ul>
+					</div>
+					<div class="profile">
+						<a href="#">
+							<div class='name'>Екатерина Филиппова</div>
+							<div class='dolzhn'>Administrator</div>
+						</a>
+					</div>
+					<div class="exit">
+						<a href="#">EXIT</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class='normal'>
+			<div class="content">
+			    <h1>Loyalty card client</h1>
+                <div class="update update__loyalty new_task alert">
+                            <h3>Create new task</h3>
+                            <form action="" method="">
+                            <div class="label">What would be done</div>
+                            <textarea placeholder="Some tasks" class="text update__text update__text_address update__text_address_textarea"></textarea>
+                            <div class="label">Priorify</div>
+                            <ul>
+                                <li>
+                                    <input type="radio" id="low" name="How" value="low"/>
+                                    <label for="low">
+                                        <span class="colorGreen">Low</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="Average" name="How" value="average"/>
+                                    <label for="Average">
+                                        <span class="colorYellow">Average</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="High" name="How" value="high"/>
+                                    <label for="High">
+                                        <span class="colorRed">High</span>
+                                    </label>
+                                </li>
+				            </ul>
+				            <div class="label">Deadline</div>
+				            
+				            <div class="calendar">
+				                <div class="date"></div>
+				                <div class="calendar_time">
+				                    <p>Time <input type="text" value="18" maxlength="2"> : <input type="text" value="18" maxlength="2"></p>
+				                </div>
+				            </div>
+				            <div class="wrap_submit">
+                        
+                            <input class=" update__btn_blue btn btn_green" type="submit" value="+ADD TASK">
+                            <span class="cancel">Cancel</span>
+                            </div>
+                        </form>
+                    </div>
+                     <div class="update update__loyalty new_task alert">
+                            <h3>Create new task</h3>
+                            <form action="" method="">
+                            <div class="label">Name & Surname</div>
+                            <input type="text" placeholder="Some tasks"/>
+                            <div class="label">What would be done</div>
+                            <textarea placeholder="Some tasks" class="text update__text update__text_address update__text_address_textarea"></textarea>
+                            <div class="label">Priorify</div>
+                            <ul>
+                                <li>
+                                    <input type="radio" id="low" name="How" value="low"/>
+                                    <label for="low">
+                                        <span class="colorGreen">Low</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="Average" name="How" value="average"/>
+                                    <label for="Average">
+                                        <span class="colorYellow">Average</span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="High" name="How" value="high"/>
+                                    <label for="High">
+                                        <span class="colorRed">High</span>
+                                    </label>
+                                </li>
+				            </ul>
+				            <div class="label">Deadline</div>
+				            
+				            <div class="calendar">
+				                <div class="date"></div>
+				                <div class="calendar_time">
+				                    <p>Time <input type="text" value="18" maxlength="2"> : <input type="text" value="18" maxlength="2"></p>
+				                </div>
+				            </div>
+				            <div class="wrap_submit">
+                        
+                            <input class=" update__btn_blue btn btn_green" type="submit" value="+ADD TASK">
+                            <span class="cancel">Cancel</span>
+                            </div>
+                        </form>
+                    </div>
+				<div class="back_line"><a href="#"></a></div>
+				<div class="button right"><a href="#" class="btn btn_green">+ ADD TASK</a></div>
+				<div class="tasks_wrap">
+				    <div class="tasks">
+				        
+				            <div class="tasks__red">
+                            <div class="cardtask_wrap border">
+				                <div class="cardtask">
+				                    <div class="cardtasks__header">
+				                        <div class="cardtasks__header_left"><h3><a href="#">John Snow</a></h3>
+				                        <div class="cardtasks__header_left_datetime">11.02.2015 19:00:00</div></div>
+				                        <div class="cardtasks__header_right">
+				                            <div class="set">
+				                                <p>The task set:</p>
+				                                <span>Mickle Long name  Saharov</span>
+				                            </div>
+                                            <div class="set">
+				                                <p>Created at:</p>
+				                                <span>11.01.2015 19:00:00</span>
+				                            </div>
+				                            
+				                        </div>
+				                        <div class="clear"></div>
+				                    </div>
+				                    <p class="border">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Aenean euismod bibendum laoreet. Proin gravida dolor sit 
+amet lacus accumsan et viverra justo commodo. Proin 
+sodales pulvinar tempor. Cum sociis natoque penatibus et 
+magnis dis parturient montes, nascetur ridiculus mus. Nam 
+fermentum, nulla luctus pharetra vulputate, felis tellus mollis 
+orci, sed rhoncus sapien nunc eget odio.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Aenean euismod bibendum laoreet. Proin gravida dolor sit 
+amet lacus accumsan et viverra justo commodo.</p>
+				                </div>
+				            </div>
+				             <div class="cardtask_wrap border">
+				                <div class="cardtask">
+				                    <div class="cardtasks__header">
+				                        <div class="cardtasks__header_left"><h3><a href="#">John Snow</a></h3>
+				                        <div class="cardtasks__header_left_datetime">11.02.2015 19:00:00</div></div>
+				                        <div class="cardtasks__header_right">
+				                            <div class="set">
+				                                <p>The task set:</p>
+				                                <span>Mickle Long name  Saharov</span>
+				                            </div>
+                                            <div class="set">
+				                                <p>Created at:</p>
+				                                <span>11.01.2015 19:00:00</span>
+				                            </div>
+				                            
+				                        </div>
+				                        <div class="clear"></div>
+				                    </div>
+				                    <p class="border">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Aenean euismod bibendum laoreet. Proin gravida dolor sit 
+amet lacus accumsan et viverra justo commodo. Proin 
+sodales pulvinar tempor. Cum sociis natoque penatibus et 
+magnis dis parturient montes, nascetur ridiculus mus. Nam 
+fermentum, nulla luctus pharetra vulputate, felis tellus mollis 
+orci, sed rhoncus sapien nunc eget odio.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Aenean euismod bibendum laoreet. Proin gravida dolor sit 
+amet lacus accumsan et viverra justo commodo.</p>
+				                </div>
+				            </div>
+				             <div class="cardtask_wrap border">
+				                <div class="cardtask">
+				                    <div class="cardtasks__header">
+				                        <div class="cardtasks__header_left"><h3><a href="#">John Snow</a></h3>
+				                        <div class="cardtasks__header_left_datetime">11.02.2015 19:00:00</div></div>
+				                        <div class="cardtasks__header_right">
+				                            <div class="set">
+				                                <p>The task set:</p>
+				                                <span>Mickle Long name  Saharov</span>
+				                            </div>
+                                            <div class="set">
+				                                <p>Created at:</p>
+				                                <span>11.01.2015 19:00:00</span>
+				                            </div>
+				                            
+				                        </div>
+				                        <div class="clear"></div>
+				                    </div>
+				                    <p class="border">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Aenean euismod bibendum laoreet. Proin gravida dolor sit 
+amet lacus accumsan et viverra justo commodo. Proin 
+sodales pulvinar tempor. Cum sociis natoque penatibus et 
+magnis dis parturient montes, nascetur ridiculus mus. Nam 
+fermentum, nulla luctus pharetra vulputate, felis tellus mollis 
+orci, sed rhoncus sapien nunc eget odio.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Aenean euismod bibendum laoreet. Proin gravida dolor sit 
+amet lacus accumsan et viverra justo commodo.</p>
+				                </div>
+				            </div>
+				            </div>
+				            <div class="tasks__yellow">
+				               <div class="cardtask_wrap border">
+				                <div class="cardtask">
+				                    <div class="cardtasks__header">
+				                        <div class="cardtasks__header_left"><h3><a href="#">John Snow</a></h3>
+				                        <div class="cardtasks__header_left_datetime">11.02.2015 19:00:00</div></div>
+				                        <div class="cardtasks__header_right">
+				                            <div class="set">
+				                                <p>The task set:</p>
+				                                <span>Mickle Long name  Saharov</span>
+				                            </div>
+                                            <div class="set">
+				                                <p>Created at:</p>
+				                                <span>11.01.2015 19:00:00</span>
+				                            </div>
+				                            
+				                        </div>
+				                        <div class="clear"></div>
+				                    </div>
+				                    <p class="border">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Aenean euismod bibendum laoreet. Proin gravida dolor sit 
+amet lacus accumsan et viverra justo commodo. Proin 
+sodales pulvinar tempor. Cum sociis natoque penatibus et 
+magnis dis parturient montes, nascetur ridiculus mus. Nam 
+fermentum, nulla luctus pharetra vulputate, felis tellus mollis 
+orci, sed rhoncus sapien nunc eget odio.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Aenean euismod bibendum laoreet. Proin gravida dolor sit 
+amet lacus accumsan et viverra justo commodo.</p>
+				                </div>
+				            </div>
+				            <div class="cardtask_wrap border">
+				                <div class="cardtask">
+				                    <div class="cardtasks__header">
+				                        <div class="cardtasks__header_left"><h3><a href="#">John Snow</a></h3>
+				                        <div class="cardtasks__header_left_datetime">11.02.2015 19:00:00</div></div>
+				                        <div class="cardtasks__header_right">
+				                            <div class="set">
+				                                <p>The task set:</p>
+				                                <span>Mickle Long name  Saharov</span>
+				                            </div>
+                                            <div class="set">
+				                                <p>Created at:</p>
+				                                <span>11.01.2015 19:00:00</span>
+				                            </div>
+				                            
+				                        </div>
+				                        <div class="clear"></div>
+				                    </div>
+				                    <p class="border">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Aenean euismod bibendum laoreet. Proin gravida dolor sit 
+amet lacus accumsan et viverra justo commodo. Proin 
+sodales pulvinar tempor. Cum sociis natoque penatibus et 
+magnis dis parturient montes, nascetur ridiculus mus. Nam 
+fermentum, nulla luctus pharetra vulputate, felis tellus mollis 
+orci, sed rhoncus sapien nunes pulvinar tempor. Cum sociis natoque penatibus et 
+magnis dis parturient montes, nascetur ridiculus mus. Nam 
+fermentum, nulla luctus pharetra vulputate, felis tellus mollis 
+orci, sed rhoncus sapien nunc eget odio.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Aenean euismod bibendum laoreet. Proin gravida dolor sit 
+amet lacus accumsan et viverra justo commodo.</p>
+				                </div>
+				            </div>
+				            <div class="cardtask_wrap border">
+				                <div class="cardtask">
+				                    <div class="cardtasks__header">
+				                        <div class="cardtasks__header_left"><h3><a href="#">John Snow</a></h3>
+				                        <div class="cardtasks__header_left_datetime">11.02.2015 19:00:00</div></div>
+				                        <div class="cardtasks__header_right">
+				                            <div class="set">
+				                                <p>The task set:</p>
+				                                <span>Mickle Long name  Saharov</span>
+				                            </div>
+                                            <div class="set">
+				                                <p>Created at:</p>
+				                                <span>11.01.2015 19:00:00</span>
+				                            </div>
+				                            
+				                        </div>
+				                        <div class="clear"></div>
+				                    </div>
+				                    <p class="border">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Aenean euismod bibendum laoreet. Proin gravida dolor sit 
+amet lacus accumsan et viverra justo commodo. Proin 
+sodales pulvinar tempor. Cum sociis natoque penatibus et 
+magnis dis parturient montes, nascetur ridiculus mus. Nam 
+fermentum, nulla luctus pharetra vulputate, felis tellus mollis 
+orci, sed rhoncus sapien nunes pulvinar tempor. Cum sociis natoque penatibus et 
+magnis dis parturient montes, nascetur ridiculus mus. Nam 
+fermentum, nulla luctus pharetra vulputate, felis tellus mollis 
+orci, sed rhoncus sapien nunc eget odio.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Aenean euismod bibendum laoreet. Proin gravida dolor sit 
+amet lacus accumsan et viverra justo commodo.</p>
+				                </div>
+				            </div>
+				            </div>
+				            <div class="tasks__green">
+				                <div class="cardtask_wrap border">
+				                <div class="cardtask">
+				                    <div class="cardtasks__header">
+				                        <div class="cardtasks__header_left"><h3><a href="#">John Snow</a></h3>
+				                        <div class="cardtasks__header_left_datetime">11.02.2015 19:00:00</div></div>
+				                        <div class="cardtasks__header_right">
+				                            <div class="set">
+				                                <p>The task set:</p>
+				                                <span>Mickle Long name  Saharov</span>
+				                            </div>
+                                            <div class="set">
+				                                <p>Created at:</p>
+				                                <span>11.01.2015 19:00:00</span>
+				                            </div>
+				                            
+				                        </div>
+				                        <div class="clear"></div>
+				                    </div>
+				                    <p class="border">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Aenean euismod bibendum laoreet. Proin gravida dolor sit 
+amet lacus accumsan et viverra justo commodo. Proin 
+sodales pulvinar tempor. Cum sociis natoque penatibus et 
+magnis dis parturient montes, nascetur ridiculus mus. Nam 
+fermentum, nulla luctus pharetra vulputate, felis tellus mollis 
+orci, sed rhoncus sapien nunes pulvinar tempor. Cum sociis natoque penatibus et 
+magnis dis parturient montes, nascetur ridiculus mus. Nam 
+fermentum, nulla luctus pharetra vulputate, felis tellus mollis 
+orci, sed rhoncus sapien nunc eget odio.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Aenean euismod bibendum laoreet. Proin gravida dolor sit 
+amet lacus accumsan et viverra justo commodo.</p>
+				                </div>
+				            </div>
+				            <div class="cardtask_wrap border">
+				                <div class="cardtask">
+				                    <div class="cardtasks__header">
+				                        <div class="cardtasks__header_left"><h3><a href="#">John Snow</a></h3>
+				                        <div class="cardtasks__header_left_datetime">11.02.2015 19:00:00</div></div>
+				                        <div class="cardtasks__header_right">
+				                            <div class="set">
+				                                <p>The task set:</p>
+				                                <span>Mickle Long name  Saharov</span>
+				                            </div>
+                                            <div class="set">
+				                                <p>Created at:</p>
+				                                <span>11.01.2015 19:00:00</span>
+				                            </div>
+				                            
+				                        </div>
+				                        <div class="clear"></div>
+				                    </div>
+				                    <p class="border">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Aenean euismod bibendum laoreet. Proin gravida dolor sit 
+amet lacus accumsan et viverra justo commodo. Proin 
+sodales pulvinar tempor. Cum sociis natoque penatibus et 
+magnis dis parturient montes, nascetur ridiculus mus. Nam 
+fermentum, nulla luctus pharetra vulputate, felis tellus mollis 
+orci, sed rhoncus sapien nunes pulvinar tempor. Cum sociis natoque penatibus et 
+magnis dis parturient montes, nascetur ridiculus mus. Nam 
+fermentum, nulla luctus pharetra vulputate, felis tellus mollis 
+orci, sed rhoncus sapien nunc eget odio.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Aenean euismod bibendum laoreet. Proin gravida dolor sit 
+amet lacus accumsan et viverra justo commodo.</p>
+				                </div>
+				            </div>
+				            <div class="cardtask_wrap border">
+				                <div class="cardtask">
+				                    <div class="cardtasks__header">
+				                        <div class="cardtasks__header_left"><h3><a href="#">John Snow</a></h3>
+				                        <div class="cardtasks__header_left_datetime">11.02.2015 19:00:00</div></div>
+				                        <div class="cardtasks__header_right">
+				                            <div class="set">
+				                                <p>The task set:</p>
+				                                <span>Mickle Long name  Saharov</span>
+				                            </div>
+                                            <div class="set">
+				                                <p>Created at:</p>
+				                                <span>11.01.2015 19:00:00</span>
+				                            </div>
+				                            
+				                        </div>
+				                        <div class="clear"></div>
+				                    </div>
+				                    <p class="border">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Aenean euismod bibendum laoreet. Proin gravida dolor sit 
+amet lacus accumsan et viverra justo commodo. Proin 
+sodales pulvinar tempor. Cum sociis natoque penatibus et 
+magnis dis parturient montes, nascetur ridiculus mus. Nam 
+fermentum, nulla luctus pharetra vulputate, felis tellus mollis 
+orci, sed rhoncus sapien nunes pulvinar tempor. Cum sociis natoque penatibus et 
+magnis dis parturient montes, nascetur ridiculus mus. Nam 
+fermentum, nulla luctus pharetra vulputate, felis tellus mollis 
+orci, sed rhoncus sapien nunc eget odio.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Aenean euismod bibendum laoreet. Proin gravida dolor sit 
+amet lacus accumsan et viverra justo commodo.</p>
+				                </div>
+				            </div>
+				            </div>
+				        </div>
+		
+				        
+				    </div>
+				</div>
+				
+            </div>	
+        </section>
+	<footer>
+	    <div class="content center">
+	         2015 © Copyright | ANTI-STRESS
+	    </div>
+	</footer>
+</body>
+</html>

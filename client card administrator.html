@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+	<meta name='description' content='#' />
+	<meta name='Keywords' content='#' />
+	<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+
+	<title>London</title>
+	<link rel="shortcut icon" href="img/favicon.ico" />
+	
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+	<link rel='stylesheet' type='text/css' href='css/reset.css' />
+	<link rel='stylesheet' type='text/css' href='css/style.css' />
+	<link rel='stylesheet' type='text/css' href='css/jquery.formstyler.css' />
+
+	<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+	<script src="js/jquery.formstyler.min.js" type="text/javascript"></script>
+	<script src="js/initialization.js" type="text/javascript"></script>
+	
+</head>
+<body>
+	<div id='main'>
+		<header>
+			<div class='content'>
+				<div class='wrapper'>
+					<div class="logo">
+						<a href='#'><img src='img/london_logo.png' alt='' /></a>
+					</div>
+					<div class="menu">
+						<ul class='wrapper'>
+							<li><a href='#'>ROLES</a></li>
+							<li><a href='#'>CLIENTS</a></li>
+							<li><a href='#'>UNCONFIRMED CLIENTS<span>12</span></a></li>
+							<li><a href='#'>BLOCKED USERS</a></li>
+							<li><a href='#'>SETTINGS</a></li>
+							<li><a href='#'>TASKS</a></li>
+						</ul>
+					</div>
+					<div class="profile">
+						<a href="#">
+							<div class='name'>Екатерина Филиппова</div>
+							<div class='dolzhn'>Administrator</div>
+						</a>
+					</div>
+					<div class="exit">
+						<a href="#">EXIT</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class='normal'>
+			<div class="content">
+				<h1>Kate Elizabet Windlet</h1>
+				<div class="back_line"><a href="#"></a></div>
+				<div class="customer-wrap">
+				    <ul class="customer">
+				        <li class="customer__item  customer__item_blue"><a class="center" href="">Customer support</a></li>
+				        <li class="customer__item"><a class="center" href="">Customer services</a></li>
+				        <li class="customer__item"><a class="center" href="">Detailed information</a></li>
+				        <li class="customer__item"><a class="center" href="">Static documents</a></li>
+				        <li class="customer__item"><a class="center" href="">Dinamic documents</a></li>
+				        <li class="customer__item customer__item_short"><a class="center" href="">Tasks</a></li>
+				        <li class="customer__item customer__item_short customer__item_last"><a class="center" href="">Report</a></li>
+				    </ul>
+				</div>
+				<div class="button"><a href="#" class="btn btn_green" id="add_service_btn">+ ADD SERVICE</a></div>
+				<div class="loyalty__wrap border">
+				    <h4>Kate Elizabet Winslet</h4>
+				    <div class="loyalty">
+				        <div class="loaylty__img border">
+				            <img src="img/avatar1.jpg" alt="avatar">
+				        </div>
+				        <div class="table_grey loyalty__table">
+					        <table>
+					           <tr>
+					               <td>Nationalty<b>f</b><span></span></td>
+					               <td>American</td>
+					           </tr>
+					           <tr>
+					               <td>Address<b>f</b><span></span></td>
+					               <td>Washington str. 45-14 street 5675768</td>
+					           </tr>
+					           <tr>
+					               <td>Tel. Number<b>f</b><span></span></td>
+					               <td>7(902)654194</td>
+					           </tr>
+					           <tr>
+					               <td>Email<b>f</b><span></span></td>
+					               <td>kate@gmail.com</td>
+					           </tr>
+					       </table>
+                        </div>
+					</div>
+                </div>
+				<div class="loyalty__wrap border loyalty__wrap_client_card">
+				    <h3>Operation</h3>
+				    <div class="button">
+				        <a href="#" class="btn btn_green" id="add_client_btn">+ ADD CLIENT</a>
+				    </div>
+				</div>
+				<div class="button">
+				    <a href="#" class="btn btn_orange" id="terminate_the_contract_btn">TERMINATE THE CONTRACT</a>
+				</div>
+				
+				<!--popup sector-->
+				
+				<div class="alert report report_newtask" id="add_client_content">
+                    <h3>New task</h3>
+                    <form action="" method="">
+			            <div class="table_grey">
+			                <ul id="new_service">
+				                <li>
+				                    <select>
+                            	        <option>February 2015</option>
+				                        <option>Accounting</option>
+						    		    <option>Accounting</option>
+				                    </select>
+                                </li>
+                                <li>
+                                    <input type="text" id="pad14px" value="11.12.2015" disabled>
+                                </li>
+                                <li>
+							         <select>
+								        <option>February 2015</option>
+    								    <option>Accounting</option>
+	    			                    <option>Accounting</option>
+		    					     </select>
+                                </li>
+                                <li>
+                                    <a href="#" class="delete"></a>
+                                </li>
+                            </ul>
+                            <div class="button">
+                                <a href="#" class="btn btn_green" id="add_service">+ ADD SERVICE</a>
+                            </div>
+						</div>
+						<div class="button">
+                            <input type="submit" value="+add" class="btn btn_blue">
+                            <button class="cancel">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="alert update success" id="terminate_the_contract">
+                    <h3>Terminate the contract</h3>
+                    <p class="right_align"> Picture successfully added Picture very successfully added</p>
+                    <div class="wrap_submit right_align">
+                        <form action="" method="">
+                            <input name="terminate" class="btn  btn_blue" type="submit" value="TERMINATE">
+                        </form>
+                        <button class="cancel">Cancel</button>
+                    </div>
+                </div>
+                
+                <div class="alert report report_newtask" id="add_service_content">
+                    <h3>New service</h3>
+                    <div class="btn_active">Work with serveces</div>
+				    <div class="btn_active btn_pas">Work with serveces</div>
+                    <form action="" method="">
+			            <div class="table_grey">
+			                <ul id="new_service">
+				                <li>
+				                    <select>
+                            	        <option>February 2015</option>
+				                        <option>Accounting</option>
+						    		    <option>Accounting</option>
+				                    </select>
+                                </li>
+                                <li>
+                                    <input type="text" value="11.12.2015" id="pad14px" disabled>
+                                </li>
+                                <li>
+                                    <input class="sh" type="text" value="100" id="pad14px"  disabled>
+                                </li>
+                                <li>
+							         <select>
+								        <option>February 2015</option>
+    								    <option>Accounting</option>
+	    			                    <option>Accounting</option>
+		    					     </select>
+                                </li>
+                                <li>
+                                    <a href="#" class="delete"></a>
+                                </li>
+                            </ul>
+                            <div class="button">
+                                <a href="#" class="btn btn_green" id="add_service">+ ADD SERVICE</a>
+                            </div>
+						</div>
+						<div class="button">
+                            <input type="submit" value="+add" class="btn btn_blue">
+                            <button class="cancel">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+                
+                
+                
+                
+                
+                <!-- end popup sector --> 
+            </div>
+            	
+        </section>
+	</div>
+	<footer>
+	    <div class="content center">
+	         2015 © Copyright | ANTI-STRESS
+	    </div>
+	</footer>
+	
+</body>
+</html>
